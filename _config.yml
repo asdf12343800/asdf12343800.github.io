@@ -1,0 +1,14 @@
+# 基础站点配置
+title: "我的博客"
+description: "用 GitHub Pages 搭建的个人博客"
+baseurl: "" # 留空，因为你的仓库名就是用户名.github.io
+url: "https://asdf12343800.github.io"
+
+# 主题（Jekyll 默认自带 minima 主题，不用额外安装）
+theme: minima
+
+# 文章路径格式（这样生成的链接就好记了）
+permalink: /:year/:month/:day/:title.html
+
+# 开启 Markdown 支持
+markdown: kramdown
